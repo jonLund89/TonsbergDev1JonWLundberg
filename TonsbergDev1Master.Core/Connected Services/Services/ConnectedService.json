@@ -1,0 +1,34 @@
+{
+  "ExtendedData": {
+    "inputs": [
+      "http://ec.europa.eu/taxation_customs/vies/checkVatService.wsdl"
+    ],
+    "collectionTypes": [
+      "System.Array",
+      "System.Collections.Generic.Dictionary`2"
+    ],
+    "namespaceMappings": [
+      "*, Services"
+    ],
+    "references": [
+      "Microsoft.TestPlatform.CommunicationUtilities, {Microsoft.TestPlatform.TestHost, 17.14.1}",
+      "Microsoft.TestPlatform.CoreUtilities, {Microsoft.TestPlatform.ObjectModel, 17.14.1}",
+      "Microsoft.TestPlatform.CrossPlatEngine, {Microsoft.TestPlatform.TestHost, 17.14.1}",
+      "Microsoft.TestPlatform.PlatformAbstractions, {Microsoft.TestPlatform.ObjectModel, 17.14.1}",
+      "Microsoft.TestPlatform.Utilities, {Microsoft.TestPlatform.TestHost, 17.14.1}",
+      "Microsoft.VisualStudio.CodeCoverage.Shim, {Microsoft.CodeCoverage, 17.14.1}",
+      "Microsoft.VisualStudio.TestPlatform.Common, {Microsoft.TestPlatform.TestHost, 17.14.1}",
+      "Microsoft.VisualStudio.TestPlatform.ObjectModel, {Microsoft.TestPlatform.ObjectModel, 17.14.1}",
+      "Newtonsoft.Json, {Newtonsoft.Json, 13.0.3}",
+      "System.Collections.Immutable, {System.Collections.Immutable, 8.0.0}",
+      "System.Reflection.Metadata, {System.Reflection.Metadata, 8.0.0}",
+      "testhost, {Microsoft.TestPlatform.TestHost, 17.14.1}",
+      "xunit.abstractions, {xunit.abstractions, 2.0.3}",
+      "xunit.assert, {xunit.assert, 2.9.3}",
+      "xunit.core, {xunit.extensibility.core, 2.9.3}",
+      "xunit.execution.dotnet, {xunit.extensibility.execution, 2.9.3}"
+    ],
+    "targetFramework": "net8.0",
+    "typeReuseMode": "All"
+  }
+}

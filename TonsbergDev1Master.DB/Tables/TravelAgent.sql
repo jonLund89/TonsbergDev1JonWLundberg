@@ -1,0 +1,3 @@
+CREATE TABLE TravelAgent (
+    TravelAgent NVARCHAR(100) PRIMARY KEY
+);
