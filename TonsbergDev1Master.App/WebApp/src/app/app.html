@@ -1,0 +1,24 @@
+<h1>{{ title }}</h1>
+
+<form (ngSubmit)="verifyVat()" #form="ngForm">
+  <label>
+    Country Code:
+    <input type="text" [(ngModel)]="countryCode" name="countryCode" required min="2" />
+  </label>
+  <br />
+  <label>
+    VAT Number:
+    <input type="text" [(ngModel)]="vatNumber" name="vatNumber" required min="5" />
+  </label>
+  <br />
+  <button type="submit" [disabled]="!form.valid">Verify VAT</button>
+</form>
+
+<div *ngIf="verificationResult">
+  <h3>Verification Result:</h3>
+  <p>{{ verificationResult }}</p>
+</div>
+
+<div *ngIf="errorMessage" style="color: red;">
+  {{ errorMessage }}
+</div>
